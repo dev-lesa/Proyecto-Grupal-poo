@@ -5,7 +5,7 @@ class Animal:
         self.tipo_alimentacion = tipo_alimentacion
 
     def mostrar_info(self):
-        return f"{self.nombre}\nEdad: {self.edad}\nAlimentacion: {self.tipo_alimentacion}"
+        return f"{self.nombre}\nEdad: {self.edad} años\nAlimentacion: {self.tipo_alimentacion}"
 
 class Ave(Animal):
     def volar(self):
@@ -17,7 +17,7 @@ class Mamifero(Animal):
 
 class Reptil(Animal):
     def reptar(self):
-        return f"{self.nombre} esta reptando."
+        return f"{self.nombre} esta reptando"
 
 
 if __name__ == "__main__":
